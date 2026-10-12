@@ -1,0 +1,64 @@
+.NavBigContainer{
+    padding: 0 15px;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  gap: 250px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.NavContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    white-space: nowrap;
+   
+ 
+  
+}
+.NavContainer a {
+      text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.logoDiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+
+     
+}
+.logoDiv p {
+  font-size: 20px;
+
+  white-space: nowrap;
+}
+.logoDiv img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+
+.UserNeedsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+.UserNeedsContainer button {
+    cursor: pointer;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+     box-shadow: none;
+}
