@@ -15,18 +15,18 @@ function NavBar(){
 
 
       <nav className="NavContainer">
-  <a href="/">Home</a>
-  <a href="/shop">Shop</a>
-  <a href="/collections">Collections</a>
-  <a href="/about">About Us</a>
-  <a href="/contact">Contact</a>
+  <a className='navTitles' href="/">Home</a>
+  <a className='navTitles' href="/shop">Shop</a>
+  <a className='navTitles' href="/collections">Collections</a>
+  <a className='navTitles' href="/about">About Us</a>
+  <a className='navTitles' href="/contact">Contact</a>
 </nav>
 
 
             <div className="UserNeedsContainer">
-                <button><CiSearch size={25}/></button>
-                 <button><CiUser size={25} /></button>
-                  <button><HiOutlineShoppingBag size={25}/></button>
+                <button className='navUserBtns'><CiSearch size={25}/></button>
+                 <button  className='navUserBtns'><CiUser size={25} /></button>
+                  <button  className='navUserBtns'><HiOutlineShoppingBag size={25}/></button>
             </div>
             </div>
        
