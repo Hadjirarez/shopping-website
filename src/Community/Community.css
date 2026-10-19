@@ -1,0 +1,78 @@
+.CummunityDiv{
+    display: flex;
+    height: 100px;
+    width: 1150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+    position: relative;
+    background-color:  #c6bfb5;
+    align-items: center;
+}
+
+.CommunityIcon-text{
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Communitytexts{
+margin-left: 20px;
+}
+
+#bigCommTxt{
+    font-size: 18px;
+    font-weight: bolder;
+}
+#smallCommTxt{
+    font-size: 15px;
+    margin-top: -10px;
+ 
+
+}
+#letterIcon{
+    height: 45px;
+    width: 45px;
+    background-color:#1a1c59;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.CommunityForm{
+    margin-left: -30px;
+    display: flex;
+    position: absolute;
+    left: 700px;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+#emailInput{
+    height: 20px;
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    padding: 10px;
+outline: none;
+}
+#emailBtn{
+    position: absolute;
+     padding: 10px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color:#1a1c59 ;
+    border: none;
+    border-radius: 25px;
+    left: 290px;
+    
+}
+#emailBtn:hover{
+    color: black;
+    background-color:rgb(219, 239, 255);
+}
