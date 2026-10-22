@@ -3,6 +3,7 @@ import NavBar from './NavBar/NavBar.jsx';
 import Items from './Items/Items.jsx';
 import NewArrivals from './NewArrivals/NewArrivals.jsx';
 import Community from './Community/Community.jsx'
+import Footer from './Footer/Footer.jsx'
 
 function app (){
   return(
@@ -12,6 +13,7 @@ function app (){
 <Items/>
 <NewArrivals/>
 <Community/>
+<Footer/>
     </div>
   
   

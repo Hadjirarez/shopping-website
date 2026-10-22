@@ -10,7 +10,7 @@ function NavBar(){
 
      <div className="logoDiv">
                 <img src={logo} alt="logo" />
-                <p>My Shop</p>
+                <p>Octavia</p>
             </div>
 
 

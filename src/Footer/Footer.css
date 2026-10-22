@@ -1,0 +1,109 @@
+.footerContainer{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: #c6bfb5;
+position: relative;}
+  
+
+.footerlogo-SM{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+   
+}
+.footerShop{
+    height: 200px;
+    width: 85px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+.footerCstmService{
+       height: 200px;
+    width: 100px;
+   white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 500px;
+    top: 20px;
+     gap: 8px;
+}
+.footerInfos{
+    height: 200px;
+    width: 100px;
+  white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:700px;
+    top: 20px;
+     gap: 8px;
+}
+.footerPayment{
+    height: 200px;
+    width: 50px;
+   white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:900px;
+    top: 20px;
+     gap: 8px;
+}
+.FooterSmLogos{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+#Sm{
+    height: 30px;
+    width: 30px;
+    color: black;
+
+}
+#footerLogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.logo-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: -15px;
+}
+#footerDisc{
+    margin-top: -10px;
+}
+.Tlt{
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+a{
+ text-decoration: none;
+    color: inherit;
+}
+#shopNameFooter{
+    font-size: 200%;
+}
+.card{
+    height: 30px;
+    width: 45px;
+}
+.paymentLogos{
+    display: flex;
+gap: 15px;
+margin-top: 10px;
+}
