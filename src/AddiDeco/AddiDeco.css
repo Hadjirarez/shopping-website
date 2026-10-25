@@ -1,0 +1,49 @@
+.AddiContainer{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addDiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+        border-right: 1px solid rgb(156, 156, 156);
+        box-shadow: 5cm;
+       
+  padding: 20px;
+  width: 250px;
+
+}
+.addDiv1{
+        display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 5cm;
+       
+  padding: 20px;
+  width: 250px;
+}
+.addIcons{
+    height: 50px;
+    width: 50px;
+}
+
+.addTexts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.addTlt{
+  margin-top: 10px;
+  font-weight: 700;
+}
+.addSubTxt{
+    margin-top: -5px;
+    font-size: small;
+}

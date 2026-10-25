@@ -4,6 +4,8 @@ import Items from './Items/Items.jsx';
 import NewArrivals from './NewArrivals/NewArrivals.jsx';
 import Community from './Community/Community.jsx'
 import Footer from './Footer/Footer.jsx'
+import AddiDeco from './AddiDeco/AddiDeco.jsx';
+
 
 function app (){
   return(
@@ -13,6 +15,7 @@ function app (){
 <Items/>
 <NewArrivals/>
 <Community/>
+<AddiDeco/>
 <Footer/>
     </div>
   
